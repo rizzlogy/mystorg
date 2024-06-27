@@ -3,22 +3,6 @@
 @echo off
 
 
-
-::  For command line switches, check mass grave [.] dev/command_line_switches.html
-::  If you want to better understand script, read from MAS separate files version. 
-
-
-::============================================================================
-::
-::   Homepage: mass grave [.] dev
-::      Email: windowsaddict@protonmail.com
-::
-::============================================================================
-
-
-
-::========================================================================================================================================
-
 ::  Set Path variable, it helps if it is misconfigured in the system
 
 set "PATH=%SystemRoot%\System32;%SystemRoot%\System32\wbem;%SystemRoot%\System32\WindowsPowerShell\v1.0\"
@@ -270,7 +254,7 @@ echo:
 echo:
 echo:       ______________________________________________________________
 echo:
-echo:                 Activation Methods:
+echo:             Activation Methods:
 echo:
 echo:             [1] HWID        ^|  Windows           ^|   Permanent
 echo:             [2] Ohook       ^|  Office            ^|   Permanent
